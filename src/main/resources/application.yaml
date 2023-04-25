@@ -14,3 +14,9 @@ spring:
         format_sql: true
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+  spring:
+    data:
+      mongodb:
+        uri: mongodb+srv://dapevi1997:d04m07a1997@sofka-cluster.as4znqn.mongodb.net/bike?retryWrites=true&w=majority
+
